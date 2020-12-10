@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
 
     var idSeleccionado = -1
     var listaID = ArrayList<String>()
-    var tmp = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -95,38 +94,13 @@ class MainActivity : AppCompatActivity() {
                 }
 
             }catch (e:Exception){
-                dialogo("Error2", e.message.toString())
+                //corregir error -- Si actualiza pero muestra "truena"
+                dialogo("Error2", e.message.toString() + "si se actualizo")
             }
 
             cargarLista()
 
         }//btnSincronizar
-
-        btnVentanaBorrar.setOnClickListener {
-            var ventana = Intent(this, MainActivity3::class.java)
-            startActivity(ventana)
-        }
-
-        btnInsertarEliminados.setOnClickListener {
-
-            try {
-
-
-                var agenda = Agenda("", "", "", "", 0, 0)
-                agenda.asignarPuntero(this)
-
-                if (agenda.insertarEliminados(EdTeLugar.text.toString())) {
-                    mensaje("Ok")
-                } else {
-                    dialogo("Error", "Otra vez")
-                }
-
-            } catch (e:Exception){
-                dialogo("Atencion", e.message.toString())
-            }
-
-
-        }//
 
     }//onCreate
 
@@ -155,10 +129,7 @@ class MainActivity : AppCompatActivity() {
                 var item = "Lugar: ${vAgenda.lugar}"+"\n"+
                         "Hora: ${vAgenda.hora}"+"\n"+
                         "Fecha: ${vAgenda.fecha}"+"\n"+
-                        "Descripcion: ${vAgenda.descripcion}"+"\n"+
-                        "Firebase: ${vAgenda.firebase}"+"\n"+
-                        "UpdateFirebase: ${vAgenda.firebaseUpdate}"+"\n"+
-                        "idAgenda: ${vAgenda.id}"
+                        "Descripcion: ${vAgenda.descripcion}"
 
                 listaID.add(vAgenda.id.toString())
                 vector[it] = item
@@ -223,7 +194,7 @@ class MainActivity : AppCompatActivity() {
 
                     var ventanaActualizar = Intent(this, MainActivity2::class.java)
                     ventanaActualizar.putExtra("idActualizar", listaID[idSeleccionado])
-                    startActivity(ventanaActualizar)
+                    startActivityForResult(ventanaActualizar, 0)
 
                 }//itemAcutalizar
 
@@ -260,9 +231,16 @@ class MainActivity : AppCompatActivity() {
         }//when
 
         }catch(e:Exception){
-            dialogo("Atencion", "Seleccione un item 1ro")
+            dialogo("Atencion", "Seleccione un item primero")
         }
         return true
     }//onContextItem
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        cargarLista()
+
+    }//onAcivityResult
 
 }//class
