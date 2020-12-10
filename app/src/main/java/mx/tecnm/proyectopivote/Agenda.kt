@@ -267,7 +267,7 @@ class Agenda(lugarP: String, horaP: String, fechaP: String, descripcionP: String
             var base = BaseDatos(puntero, nombreBase, null, 1)
             var transaccion = base.readableDatabase
 
-            var columas = arrayOf("idAgendaDelete")
+            var columas = arrayOf("*")
 
             var resultado = transaccion.query("Borrado", columas, null,null,null,null,null)
 
