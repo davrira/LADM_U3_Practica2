@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/build/intermediates/res/merged/debug/menu_menudeleteupdate.xml.flat",
-        "source": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/src/main/res/menu/menudeleteupdate.xml"
+        "merged": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/build/intermediates/res/merged/debug/menu_menudeleteupdate.xml.flat",
+        "source": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/src/main/res/menu/menudeleteupdate.xml"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/T3/LADM_T3_Ejercicio5_DRivera/app/build/intermediates/res/merged/debug/layout_activity_main2.xml.flat",

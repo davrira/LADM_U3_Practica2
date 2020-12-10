@@ -943,9 +943,7 @@ id blocking
 id bottom
 id bounce
 id btnInsertar
-id btnInsertarEliminados
 id btnSincronizar
-id btnVentanaBorrar
 id buttonPanel
 id cache_measures
 id center

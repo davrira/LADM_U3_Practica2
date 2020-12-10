@@ -231,7 +231,9 @@ class Agenda(lugarP: String, horaP: String, fechaP: String, descripcionP: String
 
                                 try {
                                     actualizarBanderaUpdateFirabase(resultado.getString(0))
-                                }catch (e:Exception){}
+                                }catch (e:Exception){
+
+                                }
 
                             }//Ok
                             .addOnFailureListener {  }//FAIL

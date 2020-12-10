@@ -95,7 +95,7 @@ class MainActivity : AppCompatActivity() {
 
             }catch (e:Exception){
                 //corregir error -- Si actualiza pero muestra "truena"
-                dialogo("Error2", e.message.toString() + "si se actualizo")
+                dialogo("Error2", e.message.toString() + "\nSI SE ACTUALIZO")
             }
 
             cargarLista()
