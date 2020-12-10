@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "696930074328",
+    "firebase_url": "https://ladmu3-59398.firebaseio.com",
+    "project_id": "ladmu3-59398",
+    "storage_bucket": "ladmu3-59398.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696930074328:android:222e8a5f373d8da0c921ad",
+        "android_client_info": {
+          "package_name": "mx.tecnm.proyectopivote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696930074328-rpb28kn6m8ohrn5dvfpa2cj4dc1eonu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo30RGzCj25lKj4fHz62VDmD9139gsnuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696930074328-rpb28kn6m8ohrn5dvfpa2cj4dc1eonu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

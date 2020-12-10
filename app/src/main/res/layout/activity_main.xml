@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="12dp"
+    >
+
+    <EditText
+        android:id="@+id/EdTeLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lugar"
+        />
+
+    <EditText
+        android:id="@+id/EdTeHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora"
+        />
+
+    <EditText
+        android:id="@+id/EdTeFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="aaaa-mm-dd"
+        />
+
+    <EditText
+        android:id="@+id/EdTeDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion"
+        />
+
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar"
+        />
+
+    <Button
+        android:id="@+id/btnSincronizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sincronizar con firebase"
+        />
+
+    <Button
+        android:id="@+id/btnVentanaBorrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ventana borrados"
+        />
+
+    <Button
+        android:id="@+id/btnInsertarEliminados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar en tabla eliminados"
+        />
+
+    <ListView
+        android:id="@+id/LiViDatos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

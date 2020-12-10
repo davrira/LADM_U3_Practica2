@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:padding="12dp"
+    >
+
+    <TextView
+        android:id="@+id/VtnTeViIdAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/VtnEditarEdTeLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lugar"
+        />
+
+    <EditText
+        android:id="@+id/VtnEditarEdTeHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora"
+        />
+
+    <EditText
+        android:id="@+id/VtnEditarEdTeFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="aaaa-mm-dd"
+        />
+
+    <EditText
+        android:id="@+id/VtnEditarEdTeDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion"
+        />
+
+    <Button
+        android:id="@+id/VtnEditarbtnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        />
+
+    <Button
+        android:id="@+id/VtnEditarbtnSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        />
+
+</LinearLayout>

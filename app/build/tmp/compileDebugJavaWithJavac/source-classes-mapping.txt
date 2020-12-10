@@ -1,0 +1,2 @@
+mx/tecnm/proyectopivote/BuildConfig.java
+ mx.tecnm.proyectopivote.BuildConfig
